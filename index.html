@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e843e2fcba.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header"><h1>Todo List</h1></div>
+    <section class="container">
+      <div class="form-container">
+        <form>
+          <input class="todo-input" type="text" />
+          <button class="todo-btn" type="submit">
+            <i class="fa-solid fa-square-plus fa-2xl"></i>
+          </button>
+        </form>
+        <div class="select">
+          <select class="filter-todos" name="todos">
+            <option value="all" class="all">All</option>
+            <option value="completed" class="completed">completed</option>
+            <option value="uncompleted" class="uncompleted">uncompleted</option>
+          </select>
+        </div>
+      </div>
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+    </section>
+    <div class="img">
+      <img src="img\img2.jpg" alt="todopic" />
+    </div>
+       <footer>
+                      
+          <ul>
+          <li>
+            <a>
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span></a>
+          </li>
+          <li>
+            <a>
+              <span class="fa-brands fa-github-square" aria-hidden="true"></span><span class="sr-only">Github<span></a>
+          </li>
+          <li>
+            <a>
+              <span class="fa-solid fa-square-envelope" aria-hidden="true"></span>
+              <span class="sr-only">Email</span>
+                 </a>
+          </li>
+               </ul>
+       
+          
+        </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
